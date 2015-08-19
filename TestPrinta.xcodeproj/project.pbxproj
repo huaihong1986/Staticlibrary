@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0B752DC1B7AD88400A3CAFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B752DB1B7AD88400A3CAFB /* main.m */; };
+		C0B752DF1B7AD88400A3CAFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B752DE1B7AD88400A3CAFB /* AppDelegate.m */; };
+		C0B752E21B7AD88400A3CAFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B752E11B7AD88400A3CAFB /* ViewController.m */; };
+		C0B752E71B7AD88400A3CAFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B752E61B7AD88400A3CAFB /* Images.xcassets */; };
+		C0B753011B7AD92D00A3CAFB /* libPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B752FF1B7AD92D00A3CAFB /* libPrint.a */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0B752D61B7AD88400A3CAFB /* TestPrinta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPrinta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B752DA1B7AD88400A3CAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B752DB1B7AD88400A3CAFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0B752DD1B7AD88400A3CAFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0B752DE1B7AD88400A3CAFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0B752E01B7AD88400A3CAFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0B752E11B7AD88400A3CAFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0B752E61B7AD88400A3CAFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0B752FF1B7AD92D00A3CAFB /* libPrint.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPrint.a; sourceTree = "<group>"; };
+		C0B753001B7AD92D00A3CAFB /* Print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Print.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0B752D31B7AD88400A3CAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B753011B7AD92D00A3CAFB /* libPrint.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0B752CD1B7AD88400A3CAFB = {
+			isa = PBXGroup;
+			children = (
+				C0B752D81B7AD88400A3CAFB /* TestPrinta */,
+				C0B752D71B7AD88400A3CAFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0B752D71B7AD88400A3CAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0B752D61B7AD88400A3CAFB /* TestPrinta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0B752D81B7AD88400A3CAFB /* TestPrinta */ = {
+			isa = PBXGroup;
+			children = (
+				C0B753001B7AD92D00A3CAFB /* Print.h */,
+				C0B752DD1B7AD88400A3CAFB /* AppDelegate.h */,
+				C0B752DE1B7AD88400A3CAFB /* AppDelegate.m */,
+				C0B752E01B7AD88400A3CAFB /* ViewController.h */,
+				C0B752E11B7AD88400A3CAFB /* ViewController.m */,
+				C0B752E61B7AD88400A3CAFB /* Images.xcassets */,
+				C0B752D91B7AD88400A3CAFB /* Supporting Files */,
+			);
+			path = TestPrinta;
+			sourceTree = "<group>";
+		};
+		C0B752D91B7AD88400A3CAFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0B752FF1B7AD92D00A3CAFB /* libPrint.a */,
+				C0B752DA1B7AD88400A3CAFB /* Info.plist */,
+				C0B752DB1B7AD88400A3CAFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0B752D51B7AD88400A3CAFB /* TestPrinta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B752F91B7AD88400A3CAFB /* Build configuration list for PBXNativeTarget "TestPrinta" */;
+			buildPhases = (
+				C0B752D21B7AD88400A3CAFB /* Sources */,
+				C0B752D31B7AD88400A3CAFB /* Frameworks */,
+				C0B752D41B7AD88400A3CAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPrinta;
+			productName = TestPrinta;
+			productReference = C0B752D61B7AD88400A3CAFB /* TestPrinta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0B752CE1B7AD88400A3CAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = ChinaCloud;
+				TargetAttributes = {
+					C0B752D51B7AD88400A3CAFB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = C0B752D11B7AD88400A3CAFB /* Build configuration list for PBXProject "TestPrinta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0B752CD1B7AD88400A3CAFB;
+			productRefGroup = C0B752D71B7AD88400A3CAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0B752D51B7AD88400A3CAFB /* TestPrinta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0B752D41B7AD88400A3CAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B752E71B7AD88400A3CAFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0B752D21B7AD88400A3CAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B752E21B7AD88400A3CAFB /* ViewController.m in Sources */,
+				C0B752DF1B7AD88400A3CAFB /* AppDelegate.m in Sources */,
+				C0B752DC1B7AD88400A3CAFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0B752F71B7AD88400A3CAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0B752F81B7AD88400A3CAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0B752FA1B7AD88400A3CAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPrinta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestPrinta",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0B752FB1B7AD88400A3CAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPrinta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestPrinta",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0B752D11B7AD88400A3CAFB /* Build configuration list for PBXProject "TestPrinta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B752F71B7AD88400A3CAFB /* Debug */,
+				C0B752F81B7AD88400A3CAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B752F91B7AD88400A3CAFB /* Build configuration list for PBXNativeTarget "TestPrinta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B752FA1B7AD88400A3CAFB /* Debug */,
+				C0B752FB1B7AD88400A3CAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0B752CE1B7AD88400A3CAFB /* Project object */;
+}
